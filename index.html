@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Favicon claro (para modo claro) -->
+<link rel="icon" type="image/png" href="recursos/favicon-light@5x.png" media="(prefers-color-scheme: light)">
+
+<!-- Favicon oscuro (para modo oscuro) -->
+<link rel="icon" type="image/png" href="recursos/favicon-dark@5x.png" media="(prefers-color-scheme: dark)">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Inicio de la Rifa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barra de navegación fija en la parte superior -->
+ <nav class="sticky top-0 z-50 bg-black/90 backdrop-blur-md shadow-md p-4 flex justify-between items-center">
+    <!-- Título o Logo -->
+    <a href="index.html" class="text-xl font-bold text-gray-800">
+         <img src="recursos/Recurso 7@5x.png" alt="Rifa Dincex Logo" class="h-10">
+    </a>
+    
+    <!-- Enlaces de navegación -->
+    <div class="flex space-x-4">
+        <a href="index.html" class="text-gray-200 hover:text-white transition-colors duration-200">Inicio</a>
+        <a href="premios.html" class="text-gray-200 hover:text-white transition-colors duration-200">Premios</a>
+        <a href="redes.html" class="text-gray-200 hover:text-white transition-colors duration-200">Contacto</a>
+        <a href="https://www.instagram.com/gutenbergcampo9/" target="_blank" class="text-gray-200 hover:text-white transition-colors duration-200">Gutenberg</a>
+    </div>
+</nav>
+
+
+    <!-- Contenido de la página de inicio en un diseño de dos columnas -->
+    <div class="container mx-auto p-4 sm:p-8 grid grid-cols-0 md:grid-cols-0 gap-8 items-center">
+        <!-- Columna izquierda: logo y título principal -->
+        <div class="flex flex-col items-center md:items-start text-center md:text-center" style="align-items: center;">
+            <img src="recursos/logo.svg" alt="Rifa Dincex Logo" width="70%" style="max-width: 700px;">
+            <h1 class="text-4xl font-extrabold text-gray-900 mt-4">¡Bienvenido a la Rifa Dincex 2025!</h1>
+        </div>
+        
+        <!-- Columna derecha: Sección de premios -->
+<div class="bg-white rounded-xl shadow-lg p-6 sm:p-8 text-center mx-auto" style="max-width: 500px">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">Echa un vistazo a los premios</h2>
+    <p class="text-gray-600 mb-6">Explora nuestra galería para ver lo que podrías ganar.</p>
+    
+    <!-- Contenedor para los botones -->
+    <div class="flex justify-center gap-x-4">
+        <a href="premios.html" class="bg-black text-white font-bold py-3 px-6 rounded-full shadow-lg hover:bg-gray-600 transition-colors duration-300">
+            Ver Premios
+        </a>
+        <a href="https://wa.me/595971452880?text=Hola!%20quiero%20mas%20informaci%C3%B3n%20de%20la%20RIFA%20DINCEX%202025" target="_blank" class="bg-black text-white font-bold py-3 px-6 rounded-full shadow-lg hover:bg-gray-600 transition-colors duration-300">
+            Compra tu boleta!
+        </a>
+    </div>
+</div>
+    </div>
+
+</body>
+</html>
